@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#B388FF"
     tools:context="com.yasam.cookies.MainActivity">
 
     <ImageView
@@ -18,10 +19,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/before_cookie"
+        android:textColor="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:textSize="34sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:text="Eat Cooke"/>
 </LinearLayout>
