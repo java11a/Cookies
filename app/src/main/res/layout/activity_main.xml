@@ -7,8 +7,21 @@
     android:orientation="vertical"
     tools:context="com.yasam.cookies.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/before_cookie"
+        android:scaleType="centerCrop"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/before_cookie"
+        android:textSize="34sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eat Cooke"/>
 </LinearLayout>
