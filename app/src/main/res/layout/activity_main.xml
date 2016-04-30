@@ -9,6 +9,7 @@
     tools:context="com.yasam.cookies.MainActivity">
 
     <ImageView
+        android:id="@+id/imgVw_status"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -16,6 +17,7 @@
         android:scaleType="centerCrop"/>
 
     <TextView
+        android:id="@+id/txtVw_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/before_cookie"
@@ -29,5 +31,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Eat Cooke"/>
+        android:text="Eat Cooke"
+        android:onClick="eatCooke"/>
 </LinearLayout>
