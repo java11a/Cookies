@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void eatCooke(View view) {
+    public void eatCookie(View view) {
         ImageView iv = (ImageView) findViewById(R.id.imgVw_status);
         if(iv != null)
             iv.setImageResource(R.drawable.after_cookie);
