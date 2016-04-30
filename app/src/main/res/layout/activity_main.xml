@@ -23,5 +23,5 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Eat Cooke"/>
+        android:text="Eat Cookie"/>
 </LinearLayout>
