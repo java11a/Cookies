@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void eatCooke(View view) {
+    public void eatCookie(View view) {
     }
 }
